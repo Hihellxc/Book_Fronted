@@ -28,7 +28,7 @@ function App() {
     <div className="book-card" key={b.id || idx}>
       <img className="book-image" src={b.image_url} alt={b.title} />
       <h2 className="book-title">{b.title}</h2>
-      <p className="book-author">by {b.auther}</p>
+      <p className="book-author">by {b.author}</p>
       <p className="book-price">${b.price}</p>
     </div>
   ));
